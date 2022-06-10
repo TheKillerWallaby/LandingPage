@@ -1,5 +1,14 @@
 /* styles.css */
-.head {
-background-color: #1F2937
+.site-header {
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.subsection.header {
+background-color: #1F2937;
+font-size: 48px;
+color: white;
+font-weight: extra-bold;
 
 }
