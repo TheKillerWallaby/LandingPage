@@ -69,3 +69,22 @@ button {
     padding: 10px 24px;
 
 }
+
+.information_wrapper {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.information_boxes_wrapper {
+    display: flex;
+    align-items: center;
+
+}
+
+.information_box {
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+}
