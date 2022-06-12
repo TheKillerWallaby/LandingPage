@@ -42,6 +42,7 @@ nav {
 .subsection_text {
     display:flex;
     flex-direction: column;
+    max-width: 300px;
 }
 
 
@@ -56,6 +57,7 @@ font-weight: extra-bold;
 p {
     font-size: 18px;
     color: #e5e7eb;
+
 }
 
 button {
@@ -63,5 +65,7 @@ button {
     font-size: 18px;
     color: #e5e7eb;
     border-radius:12px;
+    max-width: 150px;
+    padding: 10px 24px;
 
 }
