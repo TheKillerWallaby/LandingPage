@@ -37,6 +37,7 @@ nav {
     padding: 120px;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .subsection_text {
@@ -50,7 +51,7 @@ nav {
 .subsection_header {
 font-size: 48px;
 color: white;
-font-weight: extra-bold;
+font-weight: bolder;
 
 }
 
@@ -80,6 +81,7 @@ button {
 .information_boxes_wrapper {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 
 }
 
@@ -87,4 +89,20 @@ button {
     display: flex;
     align-items:center;
     flex-direction: column;
+    max-width:200px;
+    
+}
+
+p2 {
+    padding: 20px;
+    font-size: 18px;
+    text-align: center;
+    
+}
+
+.information_title {
+    font-size: 36px;
+    font-weight: bolder;
+    padding: 20px;
+
 }
