@@ -144,3 +144,29 @@ p2 {
     font-weight: bolder;
     align-self: flex-end;
 }
+
+.signup_block {
+    display: flex;
+    background-color: #3882f6;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+p3 {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+p4 {
+    font-size: 18px;
+    color: #e5e7eb;
+
+}
+.signup_words {
+    display: flex;
+    flex-direction: column;
+}
+
