@@ -153,6 +153,10 @@ p2 {
     padding-bottom: 50px;
     padding-left: 100px;
     padding-right: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right:100px;
 }
 
 p3 {
@@ -168,5 +172,23 @@ p4 {
 .signup_words {
     display: flex;
     flex-direction: column;
+    margin-right: 300px;
+    justify-content: space-between;
 }
 
+.footer {
+    display: flex;
+    justify-content: center; 
+    align-items:center;
+    background-color: #1F2937;
+    margin-left: 100px;
+    margin-right:100px;
+}
+
+.footer_text{
+    display: flex;
+    padding: 20px;
+    font-size: 18px;
+    color: #e5e7eb;
+    
+}
