@@ -37,32 +37,30 @@ nav {
     display: flex;
     background-color: #1F2937;
     padding: 120px;
+    padding-right: 140px;
     justify-content: space-between;
     align-items: center;
     margin-left: 100px;
     margin-right:100px;
-    
 }
 
 .subsection_text {
     display:flex;
     flex-direction: column;
-    max-width: 300px;
+    
 }
-
-
 
 .subsection_header {
 font-size: 48px;
 color: white;
 font-weight: bolder;
-
+max-width: 300px;
 }
 
 p {
     font-size: 18px;
     color: #e5e7eb;
-
+    max-width: 400px;
 }
 
 button {
@@ -70,8 +68,9 @@ button {
     font-size: 18px;
     color: #e5e7eb;
     border-radius:12px;
-    max-width: 150px;
-    padding: 10px 24px;
+    max-width: 175px;
+    padding: 10px 30px;
+    border-style: hidden;
 
 }
 
@@ -102,6 +101,11 @@ p2 {
     font-size: 18px;
     text-align: center;
     
+}
+
+.img1{
+    border-radius:12px;
+    border: 2px solid #3882f6;
 }
 
 .information_title {
@@ -148,15 +152,16 @@ p2 {
 .signup_block {
     display: flex;
     background-color: #3882f6;
-    justify-content: center;
+    justify-content: space-between;
     padding-top: 50px;
     padding-bottom: 50px;
     padding-left: 100px;
     padding-right: 100px;
     margin-top: 100px;
     margin-bottom: 100px;
-    margin-left: 100px;
-    margin-right:100px;
+    margin-left: 250px;
+    margin-right:250px;
+    border-radius:12px;
 }
 
 p3 {
@@ -172,23 +177,42 @@ p4 {
 .signup_words {
     display: flex;
     flex-direction: column;
-    margin-right: 300px;
+    margin-right: 150px;
     justify-content: space-between;
+
+}
+
+.button1 {
+    background-color:#3882f6;
+    font-size: 18px;
+    color: #e5e7eb;
+    border: 2px solid #e5e7eb;
+    border-radius:12px;
+    max-width: 175px;
+    padding: 10px 50px;
+
 }
 
 .footer {
-    display: flex;
+   display: flex;
+    
+
+    background-color: #1F2937;
     justify-content: center; 
     align-items:center;
-    background-color: #1F2937;
     margin-left: 100px;
     margin-right:100px;
+   
+ 
 }
 
 .footer_text{
     display: flex;
     padding: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     font-size: 18px;
     color: #e5e7eb;
     
 }
+
